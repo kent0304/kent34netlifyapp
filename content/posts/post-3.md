@@ -5,7 +5,7 @@ slug: '3'
 tags: ["ぽえむ"]
 status: Featured / Published
 date: '2019-09-26'
-featuredImage: 'https://ucarecdn.com/43614a0b-9a59-4a08-ad5c-428574b3a2c4/'
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-3/graduate_school.jpg'
 categories:
   - category: ぽえむ
 ---

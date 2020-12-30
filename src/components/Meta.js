@@ -21,14 +21,15 @@ export default class Meta extends Component {
       title,
       url,
       description,
-      absoluteImageUrl = '',
+      absoluteImageUrl='',
       twitterSiteAccount,
       twitterCreatorAccount,
       noindex,
       canonicalLink,
       siteTitle,
       siteDescription,
-      googleTrackingId
+      googleTrackingId,
+      featuredImage
       // overwrite { title, description } if in fields or fields.meta
     } = this.props
 
@@ -55,10 +56,10 @@ export default class Meta extends Component {
         <meta property="og:site_name" content={siteTitle} />
         <meta name="twitter:description" content={siteDescription} />
         <meta name="twitter:title" content={siteTitle} />
-        <meta name="twitter:image" content={absoluteImageUrl} />
-        <meta property="og:image:secure_url" content={absoluteImageUrl} />
-        <meta property="og:image" content={absoluteImageUrl} />
-        <meta name="twitter:card" content={absoluteImageUrl} />
+        <meta name="twitter:image" content={featuredImage} />
+        <meta property="og:image:secure_url" content={featuredImage} />
+        <meta property="og:image" content={featuredImage} />
+        <meta name="twitter:card" content={featuredImage} />
 
         {googleTrackingId && (
           <script

@@ -4,7 +4,7 @@ title: MetricLearningによる画像検索システム構築
 slug: '1'
 tags: ["NLP", "CV"]
 status: Featured / Published
-date: '2020-12-05'
+date: '2021-12-05'
 featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-2/coembeddings.png'
 categories:
   - category: ML

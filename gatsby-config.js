@@ -86,8 +86,13 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 800,
-              linkImagesToOriginal: false
+              maxWidth: 400,
+              linkImagesToOriginal: false,
+              classPrefix: 'language-',
+              inlineCodeMarker: null,
+              aliases: { sh: 'bash' },
+              showLineNumbers: true,
+              noInlineHighlight: false
             }
           },
           `gatsby-remark-responsive-iframe`

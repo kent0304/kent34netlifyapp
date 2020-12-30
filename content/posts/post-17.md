@@ -5,11 +5,11 @@ slug: '17'
 tags: ["ぽえむ", "インターン", "就活"]
 status: Featured / Published
 date: '2020-09-16'
-featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-17/monotaro.jpg'
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-17/monotaro_tech.jpg'
 categories:
   - category: ぽえむ
 ---
-![モノタロウ](./images/img-17/monotaro.jpg)
+![モノタロウ](./images/img-17/monotaro_tech.jpg)
 
 製造業、工事業、自動車整備業の現場で必要な工具、部品、消耗品、文具などを揃える日本の大手ECサービスを運営する某のサマーインターンシップに参加してきました。
 

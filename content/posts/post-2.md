@@ -4,7 +4,7 @@ title: UCBerkeleyに留学した話
 slug: '2'
 tags: ["留学", "CS"]
 status: Featured / Published
-date: '2018-12-11'
+date: '2021-12-11'
 featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/pages/berkeley.jpg'
 categories:
   - category: ぽえむ

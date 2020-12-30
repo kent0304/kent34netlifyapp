@@ -8,8 +8,6 @@ date: '2020-12-23'
 featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-19/smile.jpg'
 categories:
   - category: ML
-socialMediaCard:
-  image: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-19/smile.jpg'
 ---
 ![笑う](./images/img-19/smile.jpg)
 
