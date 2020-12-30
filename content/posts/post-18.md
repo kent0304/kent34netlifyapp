@@ -5,15 +5,9 @@ slug: '18'
 tags: ["CS"]
 status: Featured / Published
 date: '2020-10-04'
-featuredImage: 'https://ucarecdn.com/43614a0b-9a59-4a08-ad5c-428574b3a2c4/'
-excerpt: none
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-18/complete.jpg'
 categories:
   - category: Web
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 情報学研究科の学生としてPC組み立てくらいできた方が良いだろうということで、研究室に各パーツが揃っていたこともあり、組み立ててOSインストールまで行った記録をここに残しておこうと思います。
 

@@ -5,15 +5,9 @@ slug: '2'
 tags: ["留学", "CS"]
 status: Featured / Published
 date: '2018-12-11'
-featuredImage: 'https://ucarecdn.com/43614a0b-9a59-4a08-ad5c-428574b3a2c4/'
-excerpt: none
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/pages/berkeley.jpg'
 categories:
   - category: ぽえむ
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 
 # 音楽の授業

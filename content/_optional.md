@@ -4,7 +4,7 @@ meta:
   description: ''
   noindex: false
   title: ''
-featuredImage: 'https://ucarecdn.com/3ce1b407-7d43-413f-a45a-c0699ede8f8b/'
+featuredImage: 'https://pbs.twimg.com/profile_images/1342444375603773441/gL9CqC-r_400x400.jpg'
 gallery:
   - alt: ''
     image: ''

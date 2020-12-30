@@ -2,18 +2,12 @@
 template: SinglePost
 title: "楽天インターンで優勝しました"
 slug: '15'
-tags: ["ぽえむ", "インターン"]
+tags: ["ぽえむ", "インターン", "就活", "web"]
 status: Featured / Published
 date: '2020-08-30'
-featuredImage: './images/img-15/rakuten.jpg'
-excerpt: none
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-15/rakuten.jpg'
 categories:
   - category: ぽえむ
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 
 ![楽天](./images/img-15/rakuten.jpg)

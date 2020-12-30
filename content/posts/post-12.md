@@ -5,15 +5,9 @@ slug: '12'
 tags: ["NLP", "対話システム"]
 status: Featured / Published
 date: '2020-06-17'
-featuredImage: './images/img-12/seq2seq.jpg'
-excerpt: none
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-12/seq2seq.jpg'
 categories:
   - category: ML
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 
 こんにちは．

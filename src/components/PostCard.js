@@ -7,8 +7,10 @@ import './PostCard.css'
 const PostCard = ({
   featuredImage,
   title,
+  date,
+  tags,
   excerpt,
-  slug,
+  slug = '',
   categories = [],
   className = '',
   ...props
@@ -22,9 +24,9 @@ const PostCard = ({
     <div className="PostCard--Content">
       {title && <h3 className="PostCard--Title">{title}</h3>}
       <div className="PostCard--Category">
-        {categories && categories.map(cat => cat.category).join(', ')}
+    {date + ' '}{categories && categories.map(cat => cat.category).join(', ')}
       </div>
-      {excerpt && <div className="PostCard--Excerpt">{excerpt}</div>}
+      {/* {excerpt && <div className="PostCard--Excerpt">{excerpt}</div>} */}
     </div>
   </Link>
 )

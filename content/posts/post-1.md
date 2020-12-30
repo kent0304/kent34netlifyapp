@@ -1,19 +1,13 @@
 ---
 template: SinglePost
 title: MetricLearningによる画像検索システム構築
-slug: '2'
+slug: '1'
 tags: ["NLP", "CV"]
 status: Featured / Published
 date: '2020-12-05'
-featuredImage: './images/img-2/what_is_metric.png'
-excerpt: none
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-2/coembeddings.png'
 categories:
   - category: ML
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 
 # MetricLearningとは

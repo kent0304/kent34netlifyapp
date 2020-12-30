@@ -2,16 +2,12 @@
 template: SinglePost
 title: 某ニュースアプリのインターンに参加した
 slug: '14'
-tags: ["NLP", "インターン"]
+tags: ["NLP", "インターン", "web", "就活"]
 status: Published
 date: '2020-08-16'
-featuredImage: './images/img-14/mosaic_demo.jpg'
-excerpt: This is an excerpt of Post Two
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-14/mosaic_demo.jpg'
 categories:
   - category: ML
-meta:
-  description: test meta description
-  title: test meta title
 ---
 
 ## 参加するまで

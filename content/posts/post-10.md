@@ -2,18 +2,12 @@
 template: SinglePost
 title: "Reactでグローバルメニューを固定してスクロールするとデザインの変わるデザインの実装"
 slug: '10'
-tags: ["react", "フロントエンド"]
+tags: ["react", "フロントエンド", "web"]
 status: Featured / Published
 date: '2020-05-13'
-featuredImage: './images/img-10/ekubo.png'
-excerpt: none
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-10/ekubo.png'
 categories:
   - category: Web
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 
 # 目標

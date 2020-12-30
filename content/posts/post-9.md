@@ -5,15 +5,9 @@ slug: '9'
 tags: ["web"]
 status: Featured / Published
 date: '2020-05-05'
-featuredImage: './images/img-9/start_issue.png/'
-excerpt: 'これなんなん'
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-9/kanban.png'
 categories:
   - category: Web
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 
 # 目標

@@ -5,15 +5,11 @@ slug: '19'
 tags: ["NLP", "CV"]
 status: Featured / Published
 date: '2020-12-23'
-featuredImage: './images/img-19/smile.jpg'
-excerpt: none
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-19/smile.jpg'
 categories:
   - category: ML
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
+socialMediaCard:
+  image: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-19/smile.jpg'
 ---
 ![笑う](./images/img-19/smile.jpg)
 

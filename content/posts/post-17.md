@@ -2,18 +2,12 @@
 template: SinglePost
 title: "某ECサービスのデータサイエンスインターンに参加しました"
 slug: '17'
-tags: ["ぽえむ", "インターン"]
+tags: ["ぽえむ", "インターン", "就活"]
 status: Featured / Published
 date: '2020-09-16'
-featuredImage: './images/img-17/monotaro.jpg'
-excerpt: none
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-17/monotaro.jpg'
 categories:
   - category: ぽえむ
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 ![モノタロウ](./images/img-17/monotaro.jpg)
 

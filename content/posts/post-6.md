@@ -2,18 +2,12 @@
 template: SinglePost
 title: "スタバのおすすめカスタマイズ教えてくれるBOT作ってみた"
 slug: '6'
-tags: ["LINEbot"]
+tags: ["LINEbot", "web"]
 status: Featured / Published
 date: '2020-01-01'
 featuredImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/k/kent34/20191231/20191231192412.jpg'
-excerpt: none
 categories:
   - category: Web
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 
 あけましておめでとうございます！

@@ -6,14 +6,8 @@ tags: ["ぽえむ"]
 status: Featured / Published
 date: '2019-09-26'
 featuredImage: 'https://ucarecdn.com/43614a0b-9a59-4a08-ad5c-428574b3a2c4/'
-excerpt: none
 categories:
   - category: ぽえむ
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 
 京都大学大学院情報学研究科知能情報学専攻に合格を頂けたので来年の春から人工知能(自然言語処理)の研究に励む予定だ。

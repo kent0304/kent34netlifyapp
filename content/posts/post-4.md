@@ -2,16 +2,12 @@
 template: SinglePost
 title: Chainerのトレーナを使った学習
 slug: '4'
-tags: ["chainer", "ML"]
+tags: ["chainer", "ml"]
 status: Published
 date: '2019-10-05'
 featuredImage: 'https://preferred.jp/wp-content/uploads/2019/07/thumb_news_logo_chainer.jpg'
-excerpt: This is an excerpt of Post Two
 categories:
   - category: ML
-meta:
-  description: test meta description
-  title: test meta title
 ---
 
 

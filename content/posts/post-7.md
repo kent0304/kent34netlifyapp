@@ -2,18 +2,12 @@
 template: SinglePost
 title: "京大 情報学研究科 知能情報学専攻に合格しました"
 slug: '7'
-tags: ["振り返り"]
+tags: ["振り返り", "ぽえむ"]
 status: Featured / Published
 date: '2019-10-09'
-featuredImage: './images/img-7/1009post_img1.jpg'
-excerpt: none
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-7/1009post_img1.jpg'
 categories:
-  - category: ポエム
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
+  - category: ぽえむ
 ---
 
 2020年入学の京大 情報学研究科 知能情報学専攻に合格したので院試に向けてやったことをまとめておく。

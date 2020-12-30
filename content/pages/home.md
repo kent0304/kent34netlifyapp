@@ -1,16 +1,8 @@
 ---
 template: HomePage
 slug: ''
-title: kent memo
-featuredImage: 'berkeley.jpg'
-subtitle: 'Masters student in Kyoto Univ.'
-meta:
-  description: 'Masters student in Kyoto Univ.'
-  title: kent memo
+title: Kento Tanaka
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/pages/berkeley.jpg'
+subtitle: 'Welcome to my resume'
 ---
 
-homeのマークダウン 
-# h1
-## h2 
-
-テスト

@@ -5,15 +5,9 @@ slug: '13'
 tags: ["NLP", "対話システム"]
 status: Featured / Published
 date: '2020-08-09'
-featuredImage: './images/img-13/chatbot1.png'
-excerpt: none
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-13/chatbot1.png'
 categories:
   - category: ML
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 
 前回の記事では対話システムを考えるにあたって，その評価の方法についてまとめてみました！

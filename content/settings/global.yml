@@ -1,6 +1,7 @@
 siteTitle: kent memo
-siteUrl: 'https://yellowcake.netlify.com'
+siteUrl: ''
+siteImage: 'https://pbs.twimg.com/profile_images/1342444375603773441/gL9CqC-r_400x400.jpg'
 siteDescription: "this is kent's blog"
 socialMediaCard:
-  image: ''
+  image: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/pages/berkeley.jpg'
 googleTrackingId: 'UA-133175780-1'

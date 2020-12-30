@@ -15,11 +15,6 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
       backgroundImage={featuredImage}
     />
 
-    <h1>ここに自己紹介入れたい</h1>
-    <h1>Education</h1>
-    <h1>Internship</h1>
-    <h1>Products</h1>
-
     <section className="section">
       <div className="container">
         <Content source={body} />

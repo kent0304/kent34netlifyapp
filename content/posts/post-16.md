@@ -5,15 +5,9 @@ slug: '16'
 tags: ["NLP"]
 status: Featured / Published
 date: '2020-09-04'
-featuredImage: './images/img-16/amazon.jpg'
-excerpt: none
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-16/amazon.jpg'
 categories:
   - category: ML
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 
 ## 取り組んだタスク

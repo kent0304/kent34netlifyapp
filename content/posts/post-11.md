@@ -5,15 +5,9 @@ slug: '11'
 tags: ["就活"]
 status: Featured / Published
 date: '2020-05-17'
-featuredImage: './images/img-11/supporters.png'
-excerpt: none
+featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-11/supporters.png'
 categories:
   - category: ぽえむ
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 
 はい，大学院進学して初めてのちゃんとしたブログです．

@@ -2,18 +2,12 @@
 template: SinglePost
 title: Scssでのurl()での相対パスの指定方法
 slug: '8'
-tags: ["css"]
+tags: ["css", "web"]
 status: Featured / Published
 date: '2020-04-30'
 featuredImage: 'https://ucarecdn.com/43614a0b-9a59-4a08-ad5c-428574b3a2c4/'
-excerpt: none
 categories:
   - category: Web
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 
 # ハマりポイント

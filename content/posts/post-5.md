@@ -2,18 +2,12 @@
 template: SinglePost
 title: Chainerを使った回帰多層パーセプトロン
 slug: '5'
-tags: ["chainer"]
+tags: ["chainer", "ml"]
 status: Featured / Published
 date: '2019-11-11'
 featuredImage: 'https://preferred.jp/wp-content/uploads/2019/07/thumb_news_logo_chainer.jpg'
-excerpt: '22'
 categories:
   - category: ML
-meta:
-  canonicalLink: ''
-  description: test meta description
-  noindex: false
-  title: test meta title
 ---
 
 # はじめに
