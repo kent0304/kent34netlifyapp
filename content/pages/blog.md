@@ -1,10 +1,10 @@
 ---
 template: BlogIndex
-slug: blog
-title: Blog Page
-featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
-subtitle: This is the blog page subtitle.
+slug: 'blog'
+title: kent memo
+featuredImage: 'berkeley.jpg'
+subtitle: 'Masters student in Kyoto Univ.'
 meta:
-  description: This is a meta description.
-  title: Blog Page
+  description: 'Masters student in Kyoto Univ.'
+  title: kent memo
 ---

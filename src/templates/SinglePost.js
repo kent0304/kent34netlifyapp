@@ -6,14 +6,20 @@ import { ChevronLeft } from 'react-feather'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
+import PostSection from '../components/PostSection'
+import { ShareSns } from '../components/ShareSns'
+// import Disqus from 'gatsby-plugin-disqus'
 
 export const SinglePostTemplate = ({
+  id,
   title,
+  postTags,
   date,
   body,
   nextPostURL,
   prevPostURL,
-  categories = []
+  categories = [],
+  relatedPosts
 }) => (
   <main>
     <article
@@ -22,7 +28,7 @@ export const SinglePostTemplate = ({
       itemType="http://schema.org/BlogPosting"
     >
       <div className="container skinny">
-        <Link className="SinglePost--BackButton" to="/blog/">
+        <Link className="SinglePost--BackButton" to="/blog">
           <ChevronLeft /> BACK
         </Link>
         <div className="SinglePost--Content relative">
@@ -81,6 +87,23 @@ export const SinglePostTemplate = ({
               </Link>
             )}
           </div>
+          {typeof window !== 'undefined' && window.location.href &&
+            <ShareSns articleUrl={window.location.href} articleTitle={title} />
+          }
+          {/* {typeof window !== 'undefined' && window.location.href &&
+            <Disqus
+              identifier={id}
+              title={title}
+              url={window.location.href}
+            />
+          } */}
+          {!!relatedPosts.length && (
+            <section className="section">
+              <div className="container">
+                <PostSection title={'関連記事'} posts={relatedPosts} />
+              </div>
+            </section>
+          )}
         </div>
       </div>
     </article>
@@ -88,8 +111,20 @@ export const SinglePostTemplate = ({
 )
 
 // Export Default SinglePost for front-end
-const SinglePost = ({ data: { post, allPosts } }) => {
+const SinglePost = ({ data: { post, allPosts, group } }) => {
   const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
+  // setting tags
+  const tags = group.group.filter(tag => post.frontmatter.tags.includes(tag.fieldValue))
+  // related posts based on tag
+  const relatedPosts =
+    [...new Set(tags.flatMap(t => allPosts.edges
+      .filter(p => p.node.id !== post.id)
+      .filter(p => p.node.frontmatter.tags.includes(t.fieldValue))
+    ))].map(post => ({
+      ...post.node,
+      ...post.node.frontmatter,
+      ...post.node.fields
+  }))
   return (
     <Layout
       meta={post.frontmatter.meta || false}
@@ -98,9 +133,11 @@ const SinglePost = ({ data: { post, allPosts } }) => {
       <SinglePostTemplate
         {...post}
         {...post.frontmatter}
+        postTags={tags}
         body={post.html}
         nextPostURL={_get(thisEdge, 'next.fields.slug')}
         prevPostURL={_get(thisEdge, 'previous.fields.slug')}
+        relatedPosts={relatedPosts}
       />
     </Layout>
   )
@@ -122,37 +159,67 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        date(formatString: "MMMM Do, YYYY")
+        date(formatString: "YYYY/MM/DD")
         categories {
           category
         }
+        tags
       }
     }
-
-    allPosts: allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "posts" } } }
-      sort: { order: DESC, fields: [frontmatter___date] }
-    ) {
-      edges {
-        node {
-          id
+    allPosts: allMarkdownRemark(filter: {fields: {contentType: {eq: "posts"}}, frontmatter: {status: {eq: "Published"}}}, 
+      sort: {order: DESC, fields: [frontmatter___date]}) {
+        edges {
+          node {
+            id
+            excerpt(truncate: true, pruneLength: 50)
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              date(formatString: "YYYY/MM/DD")
+              slug
+              categories {
+                category
+              }
+              featuredImage
+              tags
+            }
+          }
+          previous {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              date(formatString: "YYYY/MM/DD")
+              categories {
+                category
+              }
+              featuredImage
+              tags
+            }
+          }
+          next {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              date(formatString: "YYYY/MM/DD")
+              categories {
+                category
+              }
+              featuredImage
+              tags
+            }
+          }
         }
-        next {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-          }
-        }
-        previous {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-          }
-        }
+      }
+    group: allMarkdownRemark(limit: 2000) {
+      group(field: frontmatter___tags) {
+        fieldValue
+        totalCount
       }
     }
   }

@@ -1,20 +1,55 @@
 ---
 template: SinglePost
-title: River
-status: Published
-date: '2018-05-25'
-featuredImage: >-
-  https://ucarecdn.com/d6ad4f3e-40a1-49cf-8cf0-f06a25d08544/-/crop/1690x1484/0,882/-/preview/
-excerpt: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
-  English, not any other language.
+title: Scssでのurl()での相対パスの指定方法
+slug: '8'
+tags: ["css"]
+status: Featured / Published
+date: '2020-04-30'
+featuredImage: 'https://ucarecdn.com/43614a0b-9a59-4a08-ad5c-428574b3a2c4/'
+excerpt: none
+categories:
+  - category: Web
 meta:
+  canonicalLink: ''
   description: test meta description
+  noindex: false
   title: test meta title
 ---
 
-This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
+# ハマりポイント
+初投稿です．それにしても今日暑い
 
-Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website. This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.
+ハマりポイントはこれね．
+[style.scssの設定を全てのscssで共有したい](https://github.com/deBroglieeeen/ekubo/issues/1)
+
+文字情報やらカラー情報は'style.scss'に，全体の'App.scss'では
+
+```scss
+@import './style.scss';
+```
+を呼んで，綺麗に保ちたいけど，どうもエラーが出てしまう．
+
+ちなみに，'style.scss'は以下．
+```scss
+@import './mixin/fonts';
+
+@include font-face('Bellota', '../public/fonts/Bellota-Bold', bold, null, ttf);
+// 以下略
+```
+# 解決策
+表示されていたエラーをよく見ると，
+`Module not found: Can't resolve './public/fonts/Bellota-Bold' in '/Users/munekiyonaoto/Desktop/inprog/ekubo/src'`
+と出てくる．
+
+これは，SassのコンパイラがURLの書き換えをまだサポートし切れていないことが原因みたい．
+なのでここでは，次のようにする必要があるみたい．
+```scss
+@import './mixin/fonts';
+$font-path: '../public/fonts/';
+@include font-face('Bellota', "`#{$font-path}`Bellota-Bold", bold, null, ttf);
+// 以下略
+```
+こうすると，ちゃんと相対パスを読み込んでくれました．
+
+## 参考
+[webpack+Sass+reactでカスタムフォントを使う](https://blog.mitsuruog.info/2016/10/webpack-with-custom-font)
