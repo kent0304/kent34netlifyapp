@@ -9,7 +9,7 @@ featuredImage: https://raw.githubusercontent.com/kent0304/newblog/main/content/p
 categories:
   - category: ML
 meta:
-  canonicalLink: ''
+  canonicalLink: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-19/smile.jpg'
   description: Kyoto University Advent Calendar 2020 23日目の記事
   image: https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-19/smile.jpg
   noindex: false
