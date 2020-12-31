@@ -28,8 +28,8 @@ export default class Meta extends Component {
       canonicalLink,
       siteTitle,
       siteDescription,
-      googleTrackingId,
-      featuredImage
+      siteImage,
+      googleTrackingId
       // overwrite { title, description } if in fields or fields.meta
     } = this.props
 
@@ -54,12 +54,14 @@ export default class Meta extends Component {
 
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content={siteTitle} />
+        <meta property="og:image:secure_url" content={siteImage} />
+        <meta property="og:image" content={siteImage} />
+        <meta name="twitter:card" content={siteImage} />
         <meta name="twitter:description" content={siteDescription} />
         <meta name="twitter:title" content={siteTitle} />
-        <meta name="twitter:image" content={featuredImage} />
-        <meta property="og:image:secure_url" content={featuredImage} />
-        <meta property="og:image" content={featuredImage} />
-        <meta name="twitter:card" content={featuredImage} />
+        <meta name="twitter:image" content={siteImage} />
+  
+        
 
         {googleTrackingId && (
           <script

@@ -5,9 +5,15 @@ slug: '19'
 tags: ["NLP", "CV"]
 status: Featured / Published
 date: '2020-12-23'
-featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-19/smile.jpg'
+featuredImage: https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-19/smile.jpg
 categories:
   - category: ML
+meta:
+  canonicalLink: ''
+  description: Kyoto University Advent Calendar 2020 23日目の記事
+  image: https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-19/smile.jpg
+  noindex: false
+  title: '画像でボケるAIでコロナ渦も笑ってクリスマスを迎えたい'
 ---
 ![笑う](./images/img-19/smile.jpg)
 
