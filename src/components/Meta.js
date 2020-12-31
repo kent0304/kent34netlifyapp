@@ -56,7 +56,7 @@ export default class Meta extends Component {
         <meta property="og:site_name" content={siteTitle} />
         <meta property="og:image:secure_url" content={canonicalLink} />
         <meta property="og:image" content={canonicalLink} />
-        <meta name="twitter:card" content={canonicalLink} />
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:description" content={siteDescription} />
         <meta name="twitter:title" content={siteTitle} />
         <meta name="twitter:image" content={canonicalLink} />
