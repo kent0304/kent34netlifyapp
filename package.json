@@ -3,7 +3,6 @@
   "HomePage": "https://yellowcake.netlify.com/",
   "description": "An opinionated starter project for creating lightning-fast websites with Gatsby v2 and Netlify CMS v2",
   "version": "2.0.0",
-  "deploy": "gatsby build && gh-pages -d public",
   "repository": {
     "type": "git",
     "url": "https://github.com/thriveweb/yellowcake"
@@ -61,6 +60,7 @@
   "scripts": {
     "start": "npm run clean && npm run develop",
     "build": "gatsby build",
+    "deploy": "gatsby build && gh-pages -d public",
     "develop": "gatsby develop",
     "clean": "del-cli .cache public",
     "serve": "gatsby serve",
