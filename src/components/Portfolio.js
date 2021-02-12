@@ -13,8 +13,8 @@ export default () => (
                     <img className="ui small circular image" src="https://pbs.twimg.com/profile_images/1342444375603773441/gL9CqC-r_400x400.jpg" />
                 </div>
                 
-                <p>kent</p>
-                <p>自然言語処理の研究をしている修士課程1年生です。</p>
+                <h3>kent</h3>
+                <p>自然言語処理の研究をしている修士課程1年生です。語学学習支援システムの自動採点に関するタスクに取り組んでいます。</p>
                 <div className="ui list">
                     <div className="item">
                         <i class="linkedin icon" />
