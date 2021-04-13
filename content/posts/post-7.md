@@ -7,7 +7,7 @@ status: Featured / Published
 date: '2019-10-09'
 featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-7/1009post_img1.jpg'
 categories:
-  - category: ぽえむ
+  - category: poem
 ---
 
 2020年入学の京大 情報学研究科 知能情報学専攻に合格したので院試に向けてやったことをまとめておく。

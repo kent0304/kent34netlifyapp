@@ -7,7 +7,7 @@ status: Featured / Published
 date: '2020-08-30'
 featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-15/rakuten.jpg'
 categories:
-  - category: ぽえむ
+  - category: poem
 ---
 
 ![楽天](./images/img-15/rakuten.jpg)

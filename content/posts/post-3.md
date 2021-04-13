@@ -7,7 +7,7 @@ status: Featured / Published
 date: '2019-09-26'
 featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-3/graduate_school.jpg'
 categories:
-  - category: ぽえむ
+  - category: poem
 ---
 
 京都大学大学院情報学研究科知能情報学専攻に合格を頂けたので来年の春から人工知能(自然言語処理)の研究に励む予定だ。

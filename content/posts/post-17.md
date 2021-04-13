@@ -7,7 +7,7 @@ status: Featured / Published
 date: '2020-09-16'
 featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-17/monotaro_tech.png'
 categories:
-  - category: ぽえむ
+  - category: poem
 ---
 ![モノタロウ](./images/img-17/monotaro_tech.png)
 

@@ -7,7 +7,7 @@ status: Featured / Published
 date: '2021-12-11'
 featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/pages/berkeley.jpg'
 categories:
-  - category: ぽえむ
+  - category: poem
 ---
 
 # 音楽の授業

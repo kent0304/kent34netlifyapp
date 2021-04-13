@@ -7,7 +7,7 @@ status: Featured / Published
 date: '2020-05-17'
 featuredImage: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-11/supporters.png'
 categories:
-  - category: ぽえむ
+  - category: poem
 ---
 
 はい，大学院進学して初めてのちゃんとしたブログです．
