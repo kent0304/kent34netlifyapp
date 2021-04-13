@@ -10,7 +10,7 @@ export default () => (
             </div>
             <div className="about-item">
                 <div className="about-image-wrapper">
-                    <img className="ui small circular image" src="https://media-exp1.licdn.com/dms/image/C5603AQFwDaAmMhuAOA/profile-displayphoto-shrink_800_800/0/1618057152225?e=1623888000&v=beta&t=eT1VXezFFz6B-i0zikdVYmBr-7jUjIP25VwbKiTcADA" />
+                    <img className="ui small circular image" src="https://pbs.twimg.com/profile_images/1342444375603773441/gL9CqC-r_400x400.jpg" />
                 </div>
                 
                 <h3>kent</h3>
