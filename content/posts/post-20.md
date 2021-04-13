@@ -8,7 +8,7 @@ date: '2020-12-31'
 featuredImage: https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-20/2020.jpg
 excerpt: none
 categories:
-  - category: ぽえむ
+  - category: poem
 meta:
   canonicalLink: 'https://raw.githubusercontent.com/kent0304/newblog/main/content/posts/images/img-20/2020.jpg'
   description: 周りの任意の人間が振り返り記事を書いている気がするので私も書いてみようと思います。
