@@ -10,11 +10,12 @@ export default () => (
             </div>
             <div className="about-item">
                 <div className="about-image-wrapper">
-                    <img className="ui small circular image" src="https://pbs.twimg.com/profile_images/1342444375603773441/gL9CqC-r_400x400.jpg" />
+                    <img className="ui small circular image" src="https://media-exp1.licdn.com/dms/image/C5603AQFwDaAmMhuAOA/profile-displayphoto-shrink_800_800/0/1618057152225?e=1623888000&v=beta&t=eT1VXezFFz6B-i0zikdVYmBr-7jUjIP25VwbKiTcADA" />
                 </div>
                 
                 <h3>kent</h3>
-                <p>自然言語処理の研究をしている修士課程1年生です。語学学習支援システムの自動採点に関するタスクに取り組んでいます。</p>
+                <p>自然言語処理の研究をしている修士2年生。自動採点による語学学習支援の研究を行っている。</p>
+                <p>阪神タイガースファン🐯</p>
                 <div className="ui list">
                     <div className="item">
                         <i class="linkedin icon" />
@@ -82,6 +83,24 @@ export default () => (
                     </div>
                 </div>
             
+        </div>
+
+        <div className="section">
+            <div className="section-heading">
+                <h1 className="hedding-primary">Publication</h1>
+            </div>
+            <ul>
+                <li>
+                    <h3>写真描画問題における自動採点手法の検討, 2021年度 人工知能学会全国大会 (JSAI2021).</h3>
+                    <p>田中健斗, 西村太一, 白井圭佑, 亀甲博貴, 森信介</p>
+                    <h3></h3>
+                </li>
+                <li>
+                    <h3>多様なユーザニーズと関連する設計変数を抽出する評価グリッド法 システム，日本機械学会 第30回 設計工学・システム部門講演会</h3>
+                    <p>櫻木麻美子, 田中健斗, 山口凜平, 石川智也, 山田周歩, 井上全人</p>
+                    <h3></h3>
+                </li>
+            </ul>
         </div>
       
         <div className="section">
